@@ -2,7 +2,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+section{
+    margin-top: 130px;
+}
 /* header and navigation */
 .nav-title {
     font-weight: 800;
@@ -89,7 +91,7 @@ main {
 /* about section styles */
 .about {
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; sob section a margin top same tai ekta section tag a niley enough */
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -97,9 +99,10 @@ main {
 }
 
 .section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px
+    margin-bottom: 50px
 }
 
 .section-description {
@@ -107,17 +110,55 @@ main {
     color: #757575;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     font-size: 20px;
 }
-.info-title{
+
+.info-title {
     color: #757575;
 }
-.info-description{
+
+.info-description {
     color: #474747;
     font-weight: 700;
+}
+
+/* What I Do Section */
+/* .what-i-do {
+    margin-top: 130px; margin top section tag a disisi
+} */
+
+/* .section-title{
+
+} */
+.skills-container {
+    display: flex;
+    gap: 24px;
+    /* gap diye duita item er moddhey difference bujhay */
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #757575;
 }
